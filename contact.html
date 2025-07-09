@@ -3,38 +3,42 @@
     <head>
         <meta charset="utf-8">
         <title>Jarditou</title>
-    </head>
+        <link rel="stylesheet" href="styles/contact.css">
+  </head>
+
 <body>
     <header>
-        <img src="jarditou_logo.jpg" alt="logo" title="logo" width="400" height="100"><br>
+        <div id="top">
+        <img id="logo" src="jarditou_logo.jpg" alt="logo" title="logo" width="400" height="100"><br>
+        <p id="jardin">Tout pour le jardin</p>
+        </div>
+        <ul>
+            <a href="accueil.html" title="Aller à la cible">Accueil</a>
+            <a href="tableau.html" title="Page suivante">Tableau </a>
+            <a href="contact.html" title="Page suivante">Contact</a>
+        </ul>
     </header>
-    <p>La qualité depuis 70ans</p>
-    <ul>
-        <li><a href="accueil.html" title="Aller à la cible">Accueil</a></li>
-        <li><a href="tableau.html" title="Page suivante">Tableau </a></li>
-        <li><a href="contact.html" title="Page suivante">Contact</a></li>
-    </ul>
-
-    <img src="promotion.jpg" alt="promo" title="promo"><br>
+    <img id="promo" src="promotion.jpg" alt="promo" title="promo">
     <h1>Contact</h1>
     <hr>
     <form action="http://bienvu.net/script.php" method="post" id="formulaire_contact">
         <p> * Ces zones sont obligatoires</p>
-        <fieldset>
+        <fieldset id="boite">
             <legend>Vos coordonnées</legend>
-            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"><br>
+            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"><br><br>
             <label for="prenom">Votre prénom*:</label><input type="text" name="prenom" id="prenom"><br>
             <br>
             <label for="sexe">Sexe*</label><input type="radio" name="Sexe" value="Feminin" id="sexe">Feminin
             <input type="radio" name="Sexe" value="Masculin">Masculin<br>
             <br>
-            <label for="date">Date de naissance*: </label><input type="date" name="date" id="date"><br>
-            <label for="code">Code postal*:</label><input type="text" name="code" id="code"><br>
-            <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br>
+            <label for="date">Date de naissance*: </label><input type="date" name="date" id="date"><br><br>
+            <label for="code">Code postal*:</label><input type="text" name="code" id="code"><br><br>
+            <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br><br>
             <label for="email">Email*:</label><input type="text" name="email" id="email"
                 placeholder="dave.loper@afpa.fr"><br>
         </fieldset>
-        <fieldset>
+        <br>
+        <fieldset id="boitedeux">
             <legend>Votre demande</legend>
             <label for="sujet">Sujet*</label>
             <select id="sujet">
@@ -43,7 +47,7 @@
                 <option>Question sur un produit</option>
                 <option>Reclamation</option>
                 <option>Autres</option>
-            </select><br>
+            </select><br><br>
             <label for="question">Votre question*: </label>
             <textarea id="question"> </textarea>
         </fieldset>
@@ -55,9 +59,9 @@
     <hr>
     <footer>
     <ul>
-        <li><a href="#" title="Aller à la cible"></a>Mention légales</li>
-        <li><a href="#" title="Aller à la cible"></a>Horaires</li>
-        <li><a href="#" title="Aller à la cible"></a>Plan du site</li>
+        <a href="#" title="Aller à la cible"></a>Mention légales
+        <a href="#" title="Aller à la cible"></a>Horaires
+        <a href="#" title="Aller à la cible"></a>Plan du site
     </ul>
     </footer>
 </body>

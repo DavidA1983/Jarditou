@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jarditou</title>
+    <link rel="stylesheet" href="styles/tableau2.css">
 </head>
 <body>
     <header>
+        <div id="top">
         <img src="jarditou_logo.jpg" alt="logo" title="logo" width="400" height="100"><br>
     
-    <p>La qualité depuis 70ans</p>
-    <ul>
-        <li><a href="accueil.html" title="Aller à la cible">Accueil</a></li>
-        <li><a href="tableau.html" title="Page suivante">Tableau </a></li>
-        <li><a href="contact.html" title="Page suivante">Contact</a></li>
+    <p id="jardin">Tout pour le jardin</p>
+    </div>
+    <ul class="bande">
+        <a href="accueil.html" title="Aller à la cible">Accueil</a>
+        <a href="tableau.html" title="Page suivante">Tableau </a>
+        <a href="contact.html" title="Page suivante">Contact</a>
     </ul>
     </header>
-    <img src="promotion.jpg" alt="promo" title="promo">
+    <img id="promo" src="promotion.jpg" alt="promo" title="promo">
     <h1>Tableau</h1>
     <hr>
     <table>
         <tr>
-            <th>Photo</th>
-            <th>ID</th>
+            <th id="coin1">Photo</th>
+            <th class="id">ID</th>
             <th>Categorie</th>
             <th>Libellé</th>
             <th>Prix</th>
-            <th>Couleur</th>
+            <th id="coin2">Couleur</th>
         </tr>
         <tr>
             <td><img src="jarditou_photos/7.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
-            <td>7</td>
+            <td class="id">7</td>
             <td>Barbecues</td>
             <td>Aramis</td>
             <td>110.00€</td>
@@ -38,7 +40,7 @@
         </tr>
         <tr>
             <td><img src="jarditou_photos/8.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
-            <td>8</td>
+            <td class="id">8</td>
             <td>Barbecues</td>
             <td>Athos</td>
             <td>249.99€</td>
@@ -46,35 +48,36 @@
         </tr>
         <tr>
             <td><img src="jarditou_photos/11.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
-            <td>11</td>
+            <td class="id">11</td>
             <td>Barbecues</td>
-            <td>Clatronic</td>
+            <td id="cla">Clatronic</td>
             <td>135.90€</td>
             <td>Chrome</td>
         </tr>
         <tr>
             <td><img src="jarditou_photos/12.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
-            <td>12</td>
+            <td class="id">12</td>
             <td>Barbecues</td>
             <td>Camping</td>
             <td>88.00€</td>
             <td>Noir</td>
         </tr>
         <tr>
-            <td><img src="jarditou_photos/7.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
-            <td>13</td>
+            <td id="coin3"><img src="jarditou_photos/7.jpg" title="jardi" alt="jardi" width="100" height="100"></td>
+            <td class="id">13</td>
             <td>Brouette</td>
             <td>Green</td>
             <td>49.00€</td>
-            <td>Verte</td>
+            <td id="coin4">Verte</td>
         </tr>
     </table>
+    
     <hr>
     <footer>
-    <ul>
-        <li><a href="#" title="Aller à la cible"></a>Mention légales</li>
-        <li><a href="#" title="Aller à la cible"></a>Horaires</li>
-        <li><a href="#" title="Aller à la cible"></a>Plan du site</li>
+    <ul class="bande">
+        <a href="#" title="Aller à la cible"></a>Mention légales
+        <a href="#" title="Aller à la cible"></a>Horaires
+        <a href="#" title="Aller à la cible"></a>Plan du site
     </ul>
     </footer>
 </body>

@@ -1,0 +1,56 @@
+header{
+    width: 100px;
+    height: 180px;
+    
+}
+ul a{
+  color: #ffff;}
+  
+#qualite{
+    margin-left: 500px;
+    margin-top: -100px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+.bande{
+    width: 1800px;
+    height: 20px;
+    display: flex;
+    background-color: black;
+    gap: 10px;
+    color: white;
+    text-decoration: underline;
+}
+#promo{
+    width: 1800px;
+    height: 300px;
+}
+table{
+  
+    table-layout: auto;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+td:hover{
+    background-color: blueviolet;
+}
+td{
+    text-align: center;
+    background-color: brown;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+th{
+    background-color: red;
+    border-radius: 20px;
+text-decoration: underline;
+border: 3px solid black;
+}
+#cla{
+    background-color: green;
+}
+.id{
+    background-color: black;
+}

@@ -1,0 +1,48 @@
+#top{
+  display: flex;
+}
+
+td a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  width: auto;
+  height: auto;
+  padding: 5px 20px 5px 20px;
+  border: 10px solid black;
+  margin: 2px 0 2px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 5px;
+  text-decoration: underline;
+}
+ul a {
+  color: #ffff;
+}
+
+#boite{
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 700px;
+}
+#boite :hover{
+    background-color: rgb(15, 187, 15);
+}
+#boitedeux{
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 700px;
+    margin-right: 200px;
+}
+#boitedeux :hover{
+    background-color: rgb(15, 187, 15);
+}

@@ -1,0 +1,22 @@
+@keyframes nom_animation {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+#test {
+
+  animation-name: nom_animation;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  /* equivalent à */
+
+  animation: nom_animation 3s ease infinite alternate ;
+}
