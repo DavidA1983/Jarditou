@@ -1,17 +1,19 @@
 table{
-  
     table-layout: fixed;
     width: 100%;
     background-color: black;
     border-radius: 20px;
     border: 1px solid black;
 }
+
 #top{
   display: flex;
 }
+
 #promo{
     width: 100%;
 }
+
 #jardin{
   flex:1;
   font-size: 2rem;
@@ -40,6 +42,7 @@ td{
     border: 1px solid black;
     background-color:  rgb(55, 194, 85);
 }
+
 th{
 text-decoration: underline;
 border: 1px solid black;
@@ -58,15 +61,17 @@ border-top-right-radius: 20px;
 #coin4{
      border-bottom-right-radius: 20px;
 }
+
 th:hover{
     background-color: aquamarine;
 }
+
 td:hover{
     background-color: coral;
     text-decoration: underline;
     font-size: xx-large;
 }
-
+/*Css Responsive */
 @media (max-width: 576px) {
     img {
 

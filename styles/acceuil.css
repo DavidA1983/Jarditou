@@ -1,12 +1,3 @@
-*nav {
-  width: auto;
-  height: auto;
-  padding: 5px 20px 5px 20px;
-  border: 10px solid black;
-  margin: 3px 0 2px 0;
-  background-color: black;
-  color: white;
-}
 #top{
   display: flex;
 }
@@ -15,6 +6,12 @@ td a {
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+#jardin{
+  flex:1;
+  font-size: 2rem;
+  text-align: center;
 }
 
 ul {
@@ -30,11 +27,6 @@ ul {
   text-decoration: underline;
 }
 
-#jardin{
-  flex:1;
-  font-size: 2rem;
-  text-align: center;
-}
 
 ul a {
   color: #ffff;
@@ -48,7 +40,6 @@ main{
   display: inline-flex;
   flex-direction: row-reverse;
   width: 100%;
-
 }
 
 #art {
@@ -63,7 +54,7 @@ main{
 }
 
 
-
+/*Css Responsive*/
 
 
 
@@ -95,7 +86,7 @@ main{
 }
 
 
-
+/*Css Animation logo et titre*/
 
 @keyframes acc {
   0% { 
@@ -123,16 +114,10 @@ main{
   }
 }
 #jardin {
-
-    width: 150px;
-    height: 150px;
-    background-color: white;
     transition: width 0.5s, height 2s, background-color 2s, transform 2s;
 }
 #jardin:hover {
-    width: 200px;
-    height: 200px;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
 }
 
 #logo {
